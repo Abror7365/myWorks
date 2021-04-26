@@ -54,8 +54,15 @@ h1,h2,h3,h4,h5,h6, p {
     color: var(--btn) !important;
 }
 
+.title {
+    font-size: 40px;
+    font-weight: 600;
+    color: var(--title);
+}
 
 /* header start */
+
+
 
 .header__link {
     color: var(--link);
@@ -118,6 +125,67 @@ h1,h2,h3,h4,h5,h6, p {
 
 .header__menu.collapsed {
     background: var(--text);
+}
+
+.header__content-subtitle {
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--text);
+    margin-bottom: 10px;
+}
+
+.header__conten-title {
+    line-height: 50px;
+    margin-bottom: 25px;
+}
+
+.header__content {
+    padding: 42px 0 75px;
+}
+
+.header__content-btn {
+    max-width: 300px;
+    width: 100%;
+    margin: 0 auto 50px;
+}
+
+.header__tech-card:first-of-type .header__tech-brand {
+    color: #E44F26;
+}
+.header__tech-card:nth-of-type(2) .header__tech-brand {
+    color: #1572B6;
+}
+.header__tech-card:last-of-type .header__tech-brand {
+    color: #790FF1;
+}
+
+.header__tech-name {
+    font-weight: 900;
+    font-size: 20px;
+    color: var(--title);
+}
+
+.header__carousel-indicators {
+    position: static;
+    margin: 50px 0 00;
+    column-gap: 30px;
+}
+
+.header__indicator-dots {
+    width: 15px !important;
+    height: 15px !important;
+    border-radius: 50%;
+    background: var(--dots);
+    border: none !important;
+    opacity: 1 !important;
+}
+
+.header__indicator-dots.active {
+    background: var(--dots-active);
+}
+
+.header__carousel-img {
+    max-height: 500px;
 }
 
 /* header end */
