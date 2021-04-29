@@ -11,3 +11,9 @@
         content: url(../img/svg/logo-dark.svg);
     }
 }
+
+@media (max-width 1440px) {
+    .about::before {
+        display: none;
+    }
+}

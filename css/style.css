@@ -70,7 +70,7 @@ h1,h2,h3,h4,h5,h6, p {
     }    
 }
 
-/* header start */
+/*------------------------------------------ header start -----------------------------------------------*/
 
 .header__nav {
     position: relative;
@@ -262,4 +262,69 @@ h1,h2,h3,h4,h5,h6, p {
     max-height: 500px;
 }
 
-/* header end */
+/* ---------------------------------------- header end -------------------------------------------*/
+
+/*----------------------------------------- main start ------------------------------------------ */
+.about {
+    position: relative;
+}
+
+.about::before {
+    content: url(../img/svg/figure_1.svg);
+    position: absolute;
+    top: -70%;
+    right: 0;
+    z-index: -1;
+}
+
+
+
+.about__work {
+    max-width: 190px;
+    width: 100%;
+    text-transform: uppercase;
+    font-size: 18px;
+    position: relative;
+    padding: 24px 0;
+    top: 70px;
+    left: -5%;
+}
+
+.about__ball {
+    width: 40px;
+    height: 40px;
+    background: #0fdac2;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 700;
+    position: absolute;
+    top: -15px;
+    right: -15px;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+}
+
+.about__desc {
+    background: var(--body);
+    box-shadow: 0px 0px 5px 3px rgba(113, 119, 241, 0.15);
+    border-radius: 8px;
+    padding: 30px;
+    display: grid;
+    row-gap: 20px;
+}
+.about__desc-btn {
+    max-width: 190px;
+    width: 100%;
+    text-transform: uppercase;
+}
+
+.about__desc-txt {
+    font-size: 18px;
+    line-height: 27px;
+    text-transform: capitalize;
+    color: var(--text);
+}
+
+
+/*------------------------------------------- main end -----------------------------------------*/
