@@ -3,6 +3,7 @@
 :root {
     --body: #fff;
     --text: #323232;
+    --footerlink: #7177f1;
     --link: #7177f1;
     --title: #7177f1;
     --btn: #7177f1;
@@ -421,14 +422,89 @@ h1,h2,h3,h4,h5,h6, p {
 /* Capabilities end */
 
 
-/* footer start */
+/* works start */
 
-.footer__link {
-    color: #fff;
+.works {
+    padding-bottom: 150px;
 }
 
-.footer__content {
-    color: #fff;
+.works__title {
+    margin-bottom: 30px;
+}
+
+.works__tab-link {
+    background: var(--body);
+    color: var(--title);
+    text-transform: uppercase;
+    font-size: 18px;
+    box-shadow: 0px 0px 5px 3px rgba(113, 119, 241, 0.15);
+    font-weight: 600;
+    padding: 16.5px;
+    border: none;
+    transition: .4s;
+}
+.works__tab-list {
+    border-radius: 8px;
+}
+
+.works__tab-link.active {
+    background: var(--title);
+    color: var(--body);
+}
+
+.list-group-item+.list-group-item.active {
+    margin: 0;
+    border: none;
+}
+.works__tab-img {
+    width: 100%;
+    max-height: 320px;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+.works__tab-image {
+    min-height: 320px;
+    height: 100%;
+}
+.works__tab-desc {
+    background: var(--body);
+    box-shadow: 0px 0px 5px 3px rgba(113, 119, 241, 0.15);
+    border-radius: 8px;
+    padding: 20px;
+}
+.works__tab-title {
+    font-size: 24px;
+}
+.works__tab-txt {
+    font-size: 18px;
+    line-height: 27px;
+    text-transform: capitalize;
+    color: var(--text);
+}
+.works__tab-btn {
+    max-width: 190px;
+    width: 100%;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+
+/* works end */
+
+/* footer start */
+.footer {
+    padding-bottom: 133px;
+}
+
+.footer__link, .footer__content {
+    color: var(--footerlink);
+    text-transform: capitalize;
+    font-size: 24px;
+}
+.footer__link:hover, .footer__content:hover {
+    color: var(--footerlink);
+    text-decoration: underline;
 }
 
 

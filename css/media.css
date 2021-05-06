@@ -4,7 +4,7 @@
         --body: #151434;
         --text: #fff;
         --dots: #ebebeb;
-        
+        --footerlink: #fff;
     }
     
     .logo::before {
